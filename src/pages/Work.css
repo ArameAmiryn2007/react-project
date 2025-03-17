@@ -1,0 +1,274 @@
+*{
+    margin: 0;
+}
+.ba-ba{
+    background: #000;
+  
+}
+.work-1{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    color: #DAC5A7;
+    font-size: 35px;
+}
+.text-work{
+    display: flex;
+    justify-content: center;
+    color: #fff;
+    margin-top: 15px;
+    color: #DAC5A799;
+}
+.to-your{
+    display: flex;
+    justify-content: center;
+}
+.work-img{
+    display: flex;
+    justify-content: center;
+}
+.work-img img{
+    width: 1500px;
+}
+.work-img2 img{
+    width: 1100px;
+}
+.work-img2{
+    display: flex;
+    justify-content: center;
+
+    margin: 0 auto;
+
+}
+.work-bord{
+    border: 1px solid #DAC5A726;
+    width: 200px;
+    padding: 10px;
+    margin: 10px;
+    background: #DAC5A70D;
+}
+.client{
+    display: flex;
+    justify-content: center;
+    color: #DAC5A799;
+}
+.work-txt{
+    color: #DAC5A7;
+}
+.gola{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+.work-nav2{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: -70px;
+
+}
+.work-w p{
+    color: #DAC5A799;
+}
+.work-w h2{
+    color: #DAC5A7;
+    font-size: 30px;
+    margin-top: 10px;
+}
+.work-ll{
+    width: 700px;
+}
+
+.work-cont-nav{
+    display: flex;
+    justify-content: space-between;
+    width: 1100px;
+    margin: 50px auto;
+}
+.work-content-bord{
+    border: 1px solid #DAC5A726;
+    width: 600px;
+    height: 200px;
+    background: #DAC5A70D;
+    margin: 0 auto;
+}
+.work-content-bord-2{
+    border: 1px solid #DAC5A726;
+    width: 600px;
+    height: 230px;
+    background: #DAC5A70D;
+
+    margin: 0 auto;
+}
+.work-content-bord-3{
+    border: 1px solid #DAC5A726;
+    width: 600px;
+    height: 290px;
+    background: #DAC5A70D;
+   
+    margin: 50px auto;
+}
+.work-h1-p h1{
+    color: #DAC5A7;
+}
+.work-h1-p p{
+    color: #DAC5A799;   
+}
+.our-w{
+    margin-top: 15px;
+}
+.work-h1-p{
+    width: 630px;
+    margin: 40px auto;
+  
+}
+.bacgraund{
+    background: #DAC5A71A;
+    height: 1100px;
+}
+.text{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+.in{
+    margin-top: 100px;
+    color: #DAC5A7;
+}
+.text-1{
+    display: flex;
+    justify-content: center;
+    color: #DAC5A7;
+    font-size: 30px;
+    margin-top: 30px;
+}
+.text-1 h1{
+    display: flex;
+    justify-content: center;
+    
+}
+.make{
+    font-size: 35px;
+}
+.help{
+    display: flex;
+    justify-content: center;
+}
+.text-2{
+    display: flex;
+    justify-content: center;
+    color: #DAC5A799;
+    margin-top: 10px;
+}
+.col1{
+    display: flex;
+    justify-content: center;
+    background: #DAC5A7;
+    width: 110px;
+    padding: 10px;
+}
+.nav-col{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    cursor: pointer;
+}
+.content-2-content{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 1500px;
+    color: #DAC5A7;
+}
+.col2{
+    margin-top: 150px;
+}
+
+.txt{
+    margin-top: 50px;
+}
+.tx2{
+    margin-top: 25px;
+}
+.pol{
+    display: flex;
+    justify-content: center;
+    background: #DAC5A7;
+    width: 130px;
+    padding: 10px;
+    margin-top: 25px;
+    color: #000;
+}
+
+.pol2 h1{
+    font-size: 70px;
+}
+.content-2-nav-3{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 1500px;
+    color: #DAC5A7;
+}
+.rol-2-col{
+    display: flex;
+    justify-content: space-between;
+    margin: 100px auto;
+    width: 1500px;
+    color: #DAC5A799;
+}
+@media screen and (max-width:600px) {
+    .work-img img{
+        width: 100%;
+    }
+    .work-img2 img{
+        width: 90%;
+    }
+    .work-nav2{
+        
+        flex-wrap: wrap;
+        margin: 70px auto;
+        width: 90%;
+    }
+    .work-cont-nav{
+        width: 90%;
+    }
+    .work-content-bord-2{
+        width: 90%;
+        height: 300px;
+    }
+    .work-content-bord-3{
+        width: 90%;
+        height: 400px;
+    }
+    .work-h1-p{
+
+        width: 320px;
+    }
+    .work-content-bord{
+        width: 100%;
+        height: 250px;
+    }
+    .content-2-content{
+        width: 90%;
+        height: 360px;
+    }
+    .rol-2-col{
+        width: 90%;
+        display: none;
+    }
+    .pol{
+        display: none;
+    }
+      .txt p{
+        margin-top: 15px;
+    }
+    .work-ll{
+        margin: 0 auto;
+        width: 300px;
+    }
+    .work-h1-p p{
+        font-size: 15px;
+    }
+   
+}

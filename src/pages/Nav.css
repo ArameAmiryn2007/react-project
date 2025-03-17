@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+}
+.ul-li{
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    border: 2px solid #DAC5A726;
+    width: 350px;
+    padding: 10px;
+    background: #DAC5A726;
+    position: relative;
+    top: 50px;
+}
+.ul-li li{
+    margin: 10px;
+    list-style: none;
+   
+}
+a{
+    color: #DAC5A7;
+  
+}
+.bac{
+    background: #000; 
+}

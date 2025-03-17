@@ -1,0 +1,401 @@
+* {
+  margin: 0;
+}
+.bloge-bac {
+  background: #000;
+}
+.bor {
+  border: 1px solid #dac5a726;
+  width: 600px;
+  height: 500px;
+  color: #fff;
+  background: #dac5a70d;
+}
+.nav-bloge {
+  display: flex;
+  justify-content: space-around;
+  width: 1100px;
+  margin: 0 auto;
+  margin-top: 130px;
+}
+.bloge-work {
+  width: 470px;
+  margin: 0 auto;
+}
+.inp input {
+  border: 1px solid #dac5a726;
+  width: 90%;
+  padding: 10px;
+  margin-top: 20px;
+  background: #dac5a70d;
+  color: #dac5a7;
+}
+
+.blo-p p {
+  margin-top: 50px;
+  color: #dac5a799;
+}
+.blo-p h2 {
+  margin-top: 10px;
+  color: #dac5a7;
+}
+.sub input {
+  border: 1px solid #dac5a726;
+  width: 95%;
+  padding: 10px;
+  margin-top: 20px;
+  background: #dac5a70d;
+  color: #000;
+  background: #dac5a7;
+  cursor: pointer;
+}
+.jav-03 {
+  display: flex;
+  margin: 20px auto;
+}
+.nav-bor-01 {
+  border: 1px solid #dac5a726;
+  width: 270px;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  background: #dac5a70d;
+}
+.nav-bor-02 {
+  border: 1px solid #dac5a726;
+  width: 268px;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  background: #dac5a70d;
+  margin-left: 20px;
+}
+.nav-bor-01 h3 {
+  color: #dac5a7;
+  margin-left: 10px;
+}
+.nav-bor-02 h3 {
+  color: #dac5a7;
+  margin-left: 10px;
+}
+.bloge-border {
+  border: 1px solid #dac5a726;
+  width: 480px;
+  height: 700px;
+  color: #fff;
+  background: #dac5a70d;
+  margin: 0 auto;
+}
+.wid {
+  width: 400px;
+  margin: 50px auto;
+}
+
+.wid h3 {
+  color: #dac5a7;
+  font-size: 25px;
+  margin-top: 10px;
+}
+.lite-1 {
+  color: #dac5a7;
+}
+.aff {
+  margin-top: 20px;
+  color: #dac5a799;
+}
+.botm {
+  border-bottom: 1px solid #dac5a726;
+  margin-top: 20px;
+}
+.Con {
+  margin-top: 40px;
+  color: #dac5a7;
+}
+.Con2 {
+  margin-top: 20px;
+}
+.Con2 {
+  color: #dac5a7;
+}
+.but-2 {
+  width: 400px;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+  background: #dac5a7;
+  color: #000;
+  border: 1px solid #dac5a7;
+  cursor: pointer;
+}
+.bloge-row-nav {
+  display: flex;
+  justify-content: center;
+  width: 1500px;
+  margin: 50px auto;
+}
+.bor-lov {
+  border: 1px solid #dac5a726;
+  width: 850px;
+  height: 200px;
+  color: #fff;
+  margin: 0 auto;
+  background: #dac5a70d;
+}
+.bor-lov-2 {
+  border: 1px solid #dac5a726;
+  width: 850px;
+  height: 110px;
+  color: #fff;
+  margin: 20px auto;
+  background: #dac5a70d;
+}
+.bor-lov-3 {
+  border: 1px solid #dac5a726;
+  width: 850px;
+  height: 90px;
+  color: #fff;
+  margin: 20px auto;
+  background: #dac5a70d;
+}
+.width {
+  width: 760px;
+  margin: 30px auto;
+}
+.width h2 {
+  color: #dac5a7;
+}
+.width p {
+  color: #dac5a799;
+}
+.for-vary {
+  margin-top: 20px;
+}
+.lorem-bord {
+  border: 1px solid #dac5a726;
+  width: 600px;
+  height: 450px;
+  color: #fff;
+  margin: 0 auto;
+  background: #dac5a70d;
+}
+.area {
+  width: 90%;
+  padding: 10px;
+  height: 100px;
+  margin-top: 20px;
+  border: 1px solid #dac5a726;
+  background: #dac5a70d;
+  color: #dac5a7;
+}
+
+.ipsum {
+  width: 500px;
+  margin: 50px auto;
+}
+.ipsum h2 {
+  margin-top: 10px;
+  color: #dac5a7;
+}
+.ipsum-p {
+  margin-top: 20px;
+}
+.ipsum p {
+  color: #dac5a799;
+}
+.UX-text p {
+  margin-top: 20px;
+}
+.UX-botom {
+  border-bottom: 1px solid #dac5a726;
+  margin-top: 30px;
+}
+.UX-text {
+  margin-top: 40px;
+}
+.lorem-row {
+  display: flex;
+  justify-content: space-around;
+  width: 1500px;
+  margin: 100px auto;
+}
+.bacgraund {
+  background: #dac5a71a;
+  height: 1100px;
+}
+.text {
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+}
+.in {
+  margin-top: 100px;
+  color: #dac5a7;
+}
+.text-1 {
+  display: flex;
+  justify-content: center;
+  color: #dac5a7;
+  font-size: 30px;
+  margin-top: 30px;
+}
+.text-1 h1 {
+  display: flex;
+  justify-content: center;
+}
+.make {
+  font-size: 35px;
+}
+.help {
+  display: flex;
+  justify-content: center;
+}
+.text-2 {
+  display: flex;
+  justify-content: center;
+  color: #dac5a799;
+  margin-top: 10px;
+}
+.col1 {
+  display: flex;
+  justify-content: center;
+  background: #dac5a7;
+  width: 110px;
+  padding: 10px;
+}
+.nav-col {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+  cursor: pointer;
+}
+.content-22-nav {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  width: 1500px;
+  color: #dac5a7;
+}
+.col2 {
+  margin-top: 150px;
+}
+
+.txt {
+  margin-top: 50px;
+}
+.tx2 {
+  margin-top: 25px;
+}
+.pol {
+  display: flex;
+  justify-content: center;
+  background: #dac5a7;
+  width: 130px;
+  padding: 10px;
+  margin-top: 25px;
+  color: #000;
+  cursor: pointer;
+}
+.rol-22-rol {
+  display: flex;
+  justify-content: space-between;
+  margin: 100px auto;
+  width: 1500px;
+  color: #dac5a799;
+}
+.pol2 h1 {
+  font-size: 70px;
+}
+@media screen and (max-width: 600px) {
+  .nav-bloge {
+    width: 90%;
+    display: block;
+  }
+  .bor {
+    display: flex;
+    justify-content: center;
+    margin: 50px auto;
+    width: 100%;
+  }
+  .bloge-work {
+    width: 90%;
+    margin: 0 auto;
+  }
+  .bloge-row-nav {
+    flex-wrap: wrap;
+    width: 90%;
+  }
+  .bloge-border {
+    margin-top: 30px;
+    width: 100%;
+  }
+  .bor-lov {
+    width: 90%;
+    height: 300px;
+  }
+  .bor-lov-2 {
+    width: 90%;
+  }
+  .bor-lov-3 {
+    width: 90%;
+  }
+  .width h2 {
+    font-size: 15px;
+  }
+  .lorem-row {
+    flex-wrap: wrap-reverse;
+    width: 90%;
+  }
+  .lorem-bord {
+    margin-top: 30px;
+    width: 100%;
+    height: 530px;
+  }
+  .jav-03 {
+    display: none;
+  }
+  .content-22-nav {
+    width: 90%;
+  }
+  .rol-22-rol {
+    width: 90%;
+    display: none;
+  }
+  .ipsum-p {
+    width: 80%;
+    font-size: 15px;
+  }
+  .ipsum {
+    width: 310px;
+    margin: 50px auto;
+  }
+  .width {
+    width: 310px;
+    margin: 20px auto;
+  }
+  .img-png {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+  }
+  .img-png img {
+    width: 300px;
+  }
+  .but-2 {
+    width: 100%;
+  }
+  .but-but {
+    width: 100%;
+  }
+  .wid {
+    width: 310px;
+    margin: 50px auto;
+  }
+  .pol {
+    display: none;
+  }
+  .bacgraund {
+    background: #dac5a71a;
+    height: 850px;
+  }
+}
