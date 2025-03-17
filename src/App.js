@@ -10,28 +10,28 @@ import Bloge from "./pages/Bloge";
 function App() {
   return (
     <Router>
-      {/* Navbar directly inside App.js */}
-      <nav className="ul-li">
+      {/* Նավիգացիոն համակարգ */}
+      <nav>
         <ul>
           <li>
-            <Link to="/">Home</Link>
+            <Link to="/">Գլխավոր էջ</Link>
           </li>
           <li>
-            <Link to="/about">About</Link>
+            <Link to="/about">Մեր մասին</Link>
           </li>
           <li>
-            <Link to="/contact">Contact</Link>
+            <Link to="/contact">Հետադարձ կապ</Link>
           </li>
           <li>
-            <Link to="/work">Work</Link>
+            <Link to="/work">Աշխատանք</Link>
           </li>
           <li>
-            <Link to="/bloge">Bloge</Link>
+            <Link to="/bloge">Բլոգ</Link>
           </li>
         </ul>
       </nav>
 
-      {/* Routes */}
+      {/* Ռոուտները */}
       <div>
         <Routes>
           <Route path="/" element={<Home />} />
@@ -39,7 +39,8 @@ function App() {
           <Route path="/contact" element={<Contact />} />
           <Route path="/work" element={<Work />} />
           <Route path="/bloge" element={<Bloge />} />
-          <Route path="*" element={<h2>404 - Page Not Found</h2>} />
+          {/* 404 - Ոչ պատշաճ էջ */}
+          <Route path="*" element={<h2>404 - Էջը չի գտնվել</h2>} />
         </Routes>
       </div>
     </Router>
