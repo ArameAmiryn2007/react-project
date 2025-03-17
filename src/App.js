@@ -1,6 +1,5 @@
 import React from "react";
-import "./App.css";
-import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
+import { HashRouter as Router, Routes, Route, Link } from "react-router-dom";
 import Home from "./pages/Home";
 import About from "./pages/About";
 import Contact from "./pages/Contact";
@@ -10,28 +9,26 @@ import Bloge from "./pages/Bloge";
 function App() {
   return (
     <Router>
-      {/* Նավիգացիոն համակարգ */}
       <nav>
         <ul>
           <li>
-            <Link to="/">Գլխավոր էջ</Link>
+            <Link to="/">Home</Link>
           </li>
           <li>
-            <Link to="/about">Մեր մասին</Link>
+            <Link to="/about">About</Link>
           </li>
           <li>
-            <Link to="/contact">Հետադարձ կապ</Link>
+            <Link to="/contact">Contact</Link>
           </li>
           <li>
-            <Link to="/work">Աշխատանք</Link>
+            <Link to="/work">Work</Link>
           </li>
           <li>
-            <Link to="/bloge">Բլոգ</Link>
+            <Link to="/bloge">Bloge</Link>
           </li>
         </ul>
       </nav>
 
-      {/* Ռոուտները */}
       <div>
         <Routes>
           <Route path="/" element={<Home />} />
@@ -39,8 +36,7 @@ function App() {
           <Route path="/contact" element={<Contact />} />
           <Route path="/work" element={<Work />} />
           <Route path="/bloge" element={<Bloge />} />
-          {/* 404 - Ոչ պատշաճ էջ */}
-          <Route path="*" element={<h2>404 - Էջը չի գտնվել</h2>} />
+          <Route path="*" element={<h2>404 - Page Not Found</h2>} />
         </Routes>
       </div>
     </Router>
